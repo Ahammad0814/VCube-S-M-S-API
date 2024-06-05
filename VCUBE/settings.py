@@ -87,9 +87,9 @@ WSGI_APPLICATION = 'VCUBE.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Django',
+        'NAME': '', # Database Name
         'USER' : 'root',
-        'PASSWORD' : 'A.ali@2002',
+        'PASSWORD' : '', # Database Password
         'HOST' : 'localhost',
         'PORT' : 3306,
     }
@@ -100,8 +100,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'ahammado282@gmail.com'  # Your Gmail email address
-EMAIL_HOST_PASSWORD = 'newtlrzrkoocrxuo'
+EMAIL_HOST_USER = ''  # Your Gmail email address
+EMAIL_HOST_PASSWORD = '' # Your Gmail App Password
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
